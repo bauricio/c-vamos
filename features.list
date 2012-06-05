@@ -1,0 +1,30 @@
+Feature: cadastrar proposta
+  Cadastro de titulo
+  Cadastro de resumo
+  Cadastro de descrição Com richtext
+  Categorias definidas
+  
+Feature: Editar proposta
+
+Feature: Excluir Proposta
+
+Feature: Aprova desaprova proposta
+
+Feature: share proposta
+
+Feature: Pergunta e resposta na proposta
+
+Feature: cadastrar perfil
+  Com nome
+  Cargo
+  Com partido
+  Coligação
+  Com número
+  foto
+
+Feature: Editar candidato
+
+Feature: Acesso de admin para o candidato
+
+Feature: Importar dados do TSE
+

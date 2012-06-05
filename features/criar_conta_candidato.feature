@@ -1,16 +1,15 @@
 #language: pt
-Funcionalidade: Criar conta de candidato
+Funcionalidade: Reinvindicar conta de candidato
   Como candidato
-  Eu desejo criar uma conta no Votar Como Vamos
+  Eu desejo reinvindicar uma conta no Votar Como Vamos
   Para que eu possa compartilhar minhas informações e propostas com os eleitores
 
   NARRATIVA:
   ==========
 
-  Esta Feature implementa o cadastro das informações básicas do candidato e a submissão da ficha básica 
+  Esta Feature implementa a reinvindicação de uma conta de candidato e a submissão da ficha completa
   que contem a Home Page de informações do candidato, as informações básicas, os links de redes sociais
-  e os termos de uso que da aplicação Votar Como Vamos. Todas as informações da página de informações 
-  básicas são requeridas para o cadastro. 
+  e os termos de uso que da aplicação Votar Como Vamos, .
 
   Após o cadastro, o candidato deve aguardar contado da equipe Votar Como Vamos para que o seu perfil 
   possa ser complementado e tenha acesso as outras sessões do cadastro, bem como ser visualizado por
@@ -29,14 +28,13 @@ Funcionalidade: Criar conta de candidato
   @pending @smoke
   Cenario: Solicitando Cadastro
     Dado que eu estou na home page do Votar Como Vamos
-    Quando eu solicito cadastrar nova conta
-    Entao eu sou direcionado para a página de cadastro de candidatos
+    Quando eu pesquiso pela minha conta
+    Entao eu sou direcionado para a página de reinvidicação de conta de candidatos
     E as seguintes sessões habilitadas:
       | Home                   | 
       | Informações Básicas    | 
       | Redes Sociais          | 
       | TERMOS DE USO          | 
-    E as seguintes sessões estão desabilitadas
       | Propostas              |
       | Perguntas e respostas  | 
       | Dados da campanha      |
