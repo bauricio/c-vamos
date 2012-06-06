@@ -1,6 +1,8 @@
 Voto Como Vamos
 ================
 
+[![Build Status](https://secure.travis-ci.org/camiloribeiro/c-vamos.png)](http://travis-ci.org/camiloribeiro/c-vamos])
+
 O Voto Como Vamos será uma aplicação no Facebook que vai revolucionar a relação eleitor-candidato.
 Nele você vai saber tudo sobre as propostas e candidatos das próximas eleições de maneira simples, didática e rápida.
 
